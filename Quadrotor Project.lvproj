@@ -20,6 +20,7 @@
 		</Item>
 		<Item Name="Init Drone.vi" Type="VI" URL="../Init Drone.vi"/>
 		<Item Name="Main Loop.vi" Type="VI" URL="../Main Loop.vi"/>
+		<Item Name="Parse NavData.vi" Type="VI" URL="../Parse NavData.vi"/>
 		<Item Name="Send AT Command.vi" Type="VI" URL="../Send AT Command.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
