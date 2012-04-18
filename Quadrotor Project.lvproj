@@ -18,6 +18,7 @@
 			<Item Name="Takeoff.vi" Type="VI" URL="../Takeoff.vi"/>
 			<Item Name="Toggle Emergency.vi" Type="VI" URL="../Toggle Emergency.vi"/>
 		</Item>
+		<Item Name="Emergency Toggle Main.vi" Type="VI" URL="../../Emergency Toggle Main.vi"/>
 		<Item Name="Init Drone.vi" Type="VI" URL="../Init Drone.vi"/>
 		<Item Name="Main Loop.vi" Type="VI" URL="../Main Loop.vi"/>
 		<Item Name="Parse NavData.vi" Type="VI" URL="../Parse NavData.vi"/>
