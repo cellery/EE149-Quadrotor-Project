@@ -15,6 +15,7 @@
 			<Item Name="Drone Hover.vi" Type="VI" URL="../Drone Hover.vi"/>
 			<Item Name="EMERGENCY.vi" Type="VI" URL="../EMERGENCY.vi"/>
 			<Item Name="Land.vi" Type="VI" URL="../Land.vi"/>
+			<Item Name="Send Config Command.vi" Type="VI" URL="../../Send Config Command.vi"/>
 			<Item Name="Takeoff.vi" Type="VI" URL="../Takeoff.vi"/>
 			<Item Name="Toggle Emergency.vi" Type="VI" URL="../Toggle Emergency.vi"/>
 		</Item>
