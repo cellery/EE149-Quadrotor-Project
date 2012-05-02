@@ -1,0 +1,128 @@
+﻿Build started 5/2/2012 10:13:54 AM.
+     1>Project "C:\Users\Excess\Desktop\ARDrone_SDK_Version_1_8_20110726\Examples\Win32\VCProjects\ARDrone\ArDroneAPI\ArDroneAPI.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\ArDroneAPI.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\Users\Excess\Desktop\ARDrone_SDK_Version_1_8_20110726\Examples\Win32\VCProjects\ARDrone\ /IC:\Users\Excess\Desktop\ARDrone_SDK_Version_1_8_20110726\ARDroneLib\VP_SDK\VP_Com\win32 /IC:\Users\Excess\Desktop\ARDrone_SDK_Version_1_8_20110726\ARDroneLib\VP_SDK\VP_Os\win32 /IC:\Users\Excess\Desktop\ARDrone_SDK_Version_1_8_20110726\ARDroneLib\Soft\Lib /IC:\Users\Excess\Desktop\ARDrone_SDK_Version_1_8_20110726\ARDroneLib\Soft\Common /IC:\Users\Excess\Desktop\ARDrone_SDK_Version_1_8_20110726\ARDroneLib /IC:\Users\Excess\Desktop\ARDrone_SDK_Version_1_8_20110726\ARDroneLib\VLIB /IC:\Users\Excess\Desktop\ARDrone_SDK_Version_1_8_20110726\Examples\Win32\VCProjects\ARDrone\ArDroneAPI\ /IC:\Users\Excess\Desktop\ARDrone_SDK_Version_1_8_20110726\ARDroneLib\VP_SDK /ZI /nologo /W3 /WX- /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\..\..\..\ARDroneLib\Soft\Lib\ardrone_tool\AT\ardrone_at_mutex.c C:\Users\Excess\Desktop\ARDrone_SDK_Version_1_8_20110726\ARDroneLib\Soft\Lib\ardrone_tool\Control\ardrone_control.c C:\Users\Excess\Desktop\ARDrone_SDK_Version_1_8_20110726\ARDroneLib\Soft\Lib\ardrone_tool\Control\ardrone_control_ack.c C:\Users\Excess\Desktop\ARDrone_SDK_Version_1_8_20110726\ARDroneLib\Soft\Lib\ardrone_tool\Control\ardrone_control_configuration.c C:\Users\Excess\Desktop\ARDrone_SDK_Version_1_8_20110726\ARDroneLib\Soft\Lib\ardrone_tool\Control\ardrone_control_soft_update.c C:\Users\Excess\Desktop\ARDrone_SDK_Version_1_8_20110726\ARDroneLib\Soft\Lib\ardrone_tool\Control\ardrone_navdata_control.c C:\Users\Excess\Desktop\ARDrone_SDK_Version_1_8_20110726\ARDroneLib\Soft\Lib\ardrone_tool\Navdata\ardrone_navdata_client.c C:\Users\Excess\Desktop\ARDrone_SDK_Version_1_8_20110726\ARDroneLib\Soft\Lib\ardrone_tool\Navdata\ardrone_navdata_file.c C:\Users\Excess\Desktop\ARDrone_SDK_Version_1_8_20110726\ARDroneLib\Soft\Lib\ardrone_tool\Navdata\navdata.c C:\Users\Excess\Desktop\ARDrone_SDK_Version_1_8_20110726\ARDroneLib\Soft\Lib\ardrone_tool\UI\ardrone_input.c C:\Users\Excess\Desktop\ARDrone_SDK_Version_1_8_20110726\ARDroneLib\Soft\Lib\ardrone_tool\UI\ardrone_tool_ui.c C:\Users\Excess\Desktop\ARDrone_SDK_Version_1_8_20110726\ARDroneLib\Soft\Lib\ardrone_tool\Video\video_com_stage.c C:\Users\Excess\Desktop\ARDrone_SDK_Version_1_8_20110726\ARDroneLib\Soft\Lib\ardrone_tool\ardrone_api.c C:\Users\Excess\Desktop\ARDrone_SDK_Version_1_8_20110726\ARDroneLib\VP_SDK\ATcodec\ATcodec_Tree.c C:\Users\Excess\Desktop\ARDrone_SDK_Version_1_8_20110726\ARDroneLib\VP_SDK\ATcodec\ATcodec_api.c
+         ATcodec_api.c
+         ATcodec_Tree.c
+         ardrone_api.c
+         video_com_stage.c
+         ardrone_tool_ui.c
+         ardrone_input.c
+         navdata.c
+         ardrone_navdata_file.c
+     1>c:\users\excess\desktop\ardrone_sdk_version_1_8_20110726\ardronelib\soft\lib\ardrone_tool\navdata\ardrone_navdata_file.c(155): warning C4013: 'gettimeofday' undefined; assuming extern returning int
+         ardrone_navdata_client.c
+         ardrone_navdata_control.c
+         ardrone_control_soft_update.c
+         ardrone_control_configuration.c
+     1>c:\users\excess\desktop\ardrone_sdk_version_1_8_20110726\ardronelib\soft\lib\ardrone_tool\control\ardrone_control_configuration.c(50): warning C4101: 'i' : unreferenced local variable
+         ardrone_control_ack.c
+         ardrone_control.c
+         ardrone_at_mutex.c
+         Generating Code...
+       Lib:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Users\Excess\Desktop\ARDrone_SDK_Version_1_8_20110726\Examples\Win32\VCProjects\ARDrone\Debug\ArDroneAPI.lib" /NOLOGO Debug\ardrone_api.obj
+         Debug\ardrone_control.obj
+         Debug\ardrone_control_ack.obj
+         Debug\ardrone_control_configuration.obj
+         Debug\ardrone_control_soft_update.obj
+         Debug\ardrone_input.obj
+         Debug\ardrone_navdata_client.obj
+         Debug\ardrone_navdata_control.obj
+         Debug\ardrone_navdata_file.obj
+         Debug\ardrone_time.obj
+         Debug\ardrone_tool_ui.obj
+         Debug\ATcodec.obj
+         Debug\ATcodec_api.obj
+         Debug\ATcodec_Buffer.obj
+         Debug\ATcodec_Memory.obj
+         Debug\ATcodec_Sorted_List.obj
+         Debug\ATcodec_Tree.obj
+         Debug\buffer_to_picture_stage.obj
+         Debug\config_serial.obj
+         Debug\config_wifi.obj
+         Debug\dictionary.obj
+         Debug\filter.obj
+         Debug\iniparser.obj
+         Debug\maths.obj
+         Debug\matrices.obj
+         Debug\matrix3d.obj
+         Debug\navdata.obj
+         Debug\p263_codec.obj
+         Debug\p263_gob_layer.obj
+         Debug\p263_huffman.obj
+         Debug\p263_mb_layer.obj
+         Debug\p263_picture_layer.obj
+         Debug\time.obj
+         Debug\uvlc.obj
+         Debug\uvlc_codec.obj
+         Debug\uvlc_gob_layer.obj
+         Debug\uvlc_mb_layer.obj
+         Debug\uvlc_picture_layer.obj
+         Debug\video_codec.obj
+         Debug\video_com_stage.obj
+         Debug\video_controller.obj
+         Debug\video_dct.obj
+         Debug\video_huffman.obj
+         Debug\video_macroblock.obj
+         Debug\video_mem32.obj
+         Debug\video_packetizer.obj
+         Debug\video_picture.obj
+         Debug\video_quantizer.obj
+         Debug\video_stage_recorder.obj
+         Debug\video_utils.obj
+         Debug\vision_math.obj
+         Debug\vlib_stage_decode.obj
+         Debug\vlib_stage_encode.obj
+         Debug\vp_api.obj
+         Debug\vp_api_error.obj
+         Debug\vp_api_io_multi_stage.obj
+         Debug\vp_api_stage.obj
+         Debug\vp_api_supervisor.obj
+         Debug\vp_api_thread_helper.obj
+         Debug\vp_com.obj
+         Debug\vp_com_config_itf.obj
+         Debug\vp_com_error.obj
+         Debug\vp_com_socket.obj
+         Debug\vp_com_socket_utils.obj
+         Debug\vp_com_wifi.obj
+         Debug\vp_os_delay.obj
+         Debug\vp_os_error_handling.obj
+         Debug\vp_os_malloc.obj
+         Debug\vp_os_signal.obj
+         Debug\vp_os_thread.obj
+         Debug\vp_stages_buffer_to_picture.obj
+         Debug\vp_stages_configs.obj
+         Debug\vp_stages_frame_pipe.obj
+         Debug\vp_stages_io_buffer.obj
+         Debug\vp_stages_io_com.obj
+         Debug\vp_stages_io_console.obj
+         Debug\vp_stages_io_file.obj
+         Debug\vp_stages_o_sdl.obj
+         Debug\vp_stages_yuv2rgb.obj
+         Debug\ardrone_at_mutex.obj
+         Debug\config_keys.obj
+         Debug\p264.obj
+         Debug\p264_codec.obj
+         Debug\p264_gob_layer.obj
+         Debug\p264_inter_mc.obj
+         Debug\p264_intra_pred.obj
+         Debug\p264_mb_layer.obj
+         Debug\p264_merge.obj
+         Debug\p264_picture_layer.obj
+         Debug\p264_Qp.obj
+         Debug\p264_transform.obj
+         Debug\p264_zigzag.obj
+         Debug\video_p264.obj
+     1>ardrone_api.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+         ArDroneAPI.vcxproj -> C:\Users\Excess\Desktop\ARDrone_SDK_Version_1_8_20110726\Examples\Win32\VCProjects\ARDrone\Debug\ArDroneAPI.lib
+       FinalizeBuildStatus:
+         Deleting file "Debug\ArDroneAPI.unsuccessfulbuild".
+         Touching "Debug\ArDroneAPI.lastbuildstate".
+     1>Done Building Project "C:\Users\Excess\Desktop\ARDrone_SDK_Version_1_8_20110726\Examples\Win32\VCProjects\ARDrone\ArDroneAPI\ArDroneAPI.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.56
